@@ -1,6 +1,12 @@
 {
     "users":[
-        {"id":"32", "firstName":"abhinanandan", "age": 32},
-        {"id":"40", "firstName":"Ashish", "age": 35}
+        {"id":"32", "firstName":"abhinanandan", "age": 32, "companyId":"1"},
+        {"id":"40", "firstName":"Ashish", "age": 35, "companyId":"2"},
+        {"id":"46", "firstName":"Prithivi", "age": 29, "companyId":"2"}
+
+    ],
+    "companies":[
+        {"id":"1", "name":"Apple", "description":"iphone"},
+        {"id":"2", "name": "Google", "description":"search"}
     ]
 }
